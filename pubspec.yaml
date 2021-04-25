@@ -10,7 +10,7 @@ authors:
 description: A port of the three.js JavaScript 3D engine to Dart.
 homepage: http://threedart.github.com/three.dart/
 environment:
-  sdk: '>=0.8.10+6 <2.0.0'
+  sdk: '>=1.0.0 < 2.0.0'
 dependencies:
   browser: '>=0.9.0 <0.11.0'
   vector_math: '>=1.3.5 <1.5.0'

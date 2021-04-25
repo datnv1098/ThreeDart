@@ -144,10 +144,10 @@ class PolyhedronGeometry extends Geometry {
 /**
  * [PolyhedronGeometryVertex] is a [Vector3] decorator to allow introducing [index] and [uv].
  * */
-class PolyhedronGeometryVertex extends Vector3 {
-  int index;
-  UV uv;
-  PolyhedronGeometryVertex([num x = 0.0, num y = 0.0, num z = 0.0]) : super(x.toDouble(), y.toDouble(), z.toDouble());
-
-  PolyhedronGeometryVertex.fromVector3(Vector3 other) : super.copy(other);
-}
+// class PolyhedronGeometryVertex extends Vector3 {
+//   int index;
+//   UV uv;
+//   PolyhedronGeometryVertex([num x = 0.0, num y = 0.0, num z = 0.0]) : super(x.toDouble(), y.toDouble(), z.toDouble());
+//
+//   PolyhedronGeometryVertex.fromVector3(Vector3 other) : super.copy(other);
+// }
